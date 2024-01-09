@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { BrowserRouter, Routes, Route, Link, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Info from './components/Info';
 import Taskboard from './components/Taskboard';
 import TotalActivity from './components/TotalActivity';
@@ -10,7 +10,7 @@ import axios from 'axios';
 import DetailedActivity from './components/DetailedActivity';
 
 function App() {
-  const URL = 'http://localhost:3010';
+  const URL = 'https://task-manager-appl-5871d2ece47c.herokuapp.com/api';
   const [isSettingsShow, setIsSettingsShow] = useState(false);
   const dropdownRef = useRef(null);
   const [mode, setMode] = useState('default');

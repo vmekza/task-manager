@@ -6,7 +6,7 @@ import { Bar } from 'react-chartjs-2';
 import axios from 'axios';
 
 const DailyActivityChart = () => {
-  const URL = 'http://localhost:3010';
+  const URL = 'https://task-manager-appl-5871d2ece47c.herokuapp.com/api';
   const [tasks, setTasks] = useState([]);
 
   useEffect(() => {
