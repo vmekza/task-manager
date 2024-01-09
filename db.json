@@ -6,24 +6,7 @@
     "current": "default"
   },
   "tasks": [],
-  "tags": [
-    {
-      "name": "dog",
-      "id": 1
-    },
-    {
-      "name": "run",
-      "id": 2
-    },
-    {
-      "name": "food",
-      "id": 3
-    },
-    {
-      "name": "break",
-      "id": 4
-    }
-  ],
+  "tags": [],
   "observationInterval": {
     "start": "",
     "end": ""
