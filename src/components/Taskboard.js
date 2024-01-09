@@ -8,7 +8,8 @@ import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 //Supports drag-and-drop functionality for tasks ordering
 
 const Taskboard = ({ mode, setMode }) => {
-  const URL = 'http://localhost:3010';
+  // const URL = 'http://localhost:3010';
+  const URL = 'https://task-manager-appl-5871d2ece47c.herokuapp.com/api';
   // State management for tasks and task editing
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState('');
