@@ -4,7 +4,8 @@ import { IoClose } from 'react-icons/io5';
 
 // TagEditor component that allows editing of tags related to a task
 const TagEditor = ({ task, tags, onAddTag, setTags, onClose }) => {
-  const URL = 'http://localhost:3010';
+  // const URL = 'http://localhost:3010';
+  const URL = 'https://task-manager-appl-5871d2ece47c.herokuapp.com';
   const [selectedTag, setSelectedTag] = useState(null);
   const [newTag, setNewTag] = useState('');
   const [tagOptions, setTagOptions] = useState([]);
