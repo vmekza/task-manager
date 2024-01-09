@@ -10,7 +10,7 @@ import axios from 'axios';
 import DetailedActivity from './components/DetailedActivity';
 
 function App() {
-  const URL = 'https://task-manager-appl-5871d2ece47c.herokuapp.com/api';
+  const URL = 'https://task-manager-appl-5871d2ece47c.herokuapp.com';
   const [isSettingsShow, setIsSettingsShow] = useState(false);
   const dropdownRef = useRef(null);
   const [mode, setMode] = useState('default');
