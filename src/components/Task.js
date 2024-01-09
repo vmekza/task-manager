@@ -99,7 +99,7 @@ const Task = ({
         </div>
 
         <div className='task__tags'>
-          {task.tags.map((tag) => (
+          {(task.tags || []).map((tag) => (
             <span key={tag} className='tag'>
               <>
                 {tag}
