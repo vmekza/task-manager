@@ -110,7 +110,7 @@ const DetailedActivity = () => {
         activityIntervals,
       };
       try {
-        await axios.put(`{URL}/tasks/${selectedTask.id}`, updatedTask);
+        await axios.put(`${URL}/tasks/${selectedTask.id}`, updatedTask);
         setError(null);
         setUpdateKey((prev) => prev + 1);
         window.alert('Changes have been saved successfully!');
