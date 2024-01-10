@@ -17,7 +17,7 @@ const calculateActiveTimeWithinInterval = (intervals) => {
 //TotalActivity component that calculates and displays
 //total activity time of the tasks and tags in choosen interval
 const TotalActivity = () => {
-  const URL = 'https://task-manager-appl-5871d2ece47c.herokuapp.com';
+  const URL = 'https://task-manager-appl-5871d2ece47c.herokuapp.com/api';
   // State hooks for defining the observation start and end times
   const [observationStart, setObservationStart] = useState(
     new Date().setHours(0, 0, 0, 0)

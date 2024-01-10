@@ -9,7 +9,7 @@ import Chart from 'chart.js/auto';
 //DetailedActivity component allows display activity intervals
 //for choosen tags as well as add and delete them
 const DetailedActivity = () => {
-  const URL = 'https://task-manager-appl-5871d2ece47c.herokuapp.com';
+  const URL = 'https://task-manager-appl-5871d2ece47c.herokuapp.com/api';
   // State for storing the list of tasks
   const [tasks, setTasks] = useState([]);
 
