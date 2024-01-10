@@ -266,7 +266,6 @@ const Taskboard = ({ mode, setMode }) => {
 
     setTasks(newTasks);
   };
-
   return (
     <div className='taskboard'>
       <div className='taskboard__actions'>
@@ -278,7 +277,6 @@ const Taskboard = ({ mode, setMode }) => {
             value={newTask}
             onChange={(e) => setNewTask(e.target.value)}
           />
-
           <div className='actions__add-tags'>
             <CreatableSelect
               isMulti
@@ -319,7 +317,6 @@ const Taskboard = ({ mode, setMode }) => {
           />
         </div>
       </div>
-
       <div className='taskboard__task-list'>
         <DragDropContext onDragEnd={onDragEnd}>
           <Droppable droppableId='droppable'>
