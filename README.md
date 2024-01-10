@@ -10,7 +10,12 @@ This project is a React-based web application designed for managing tasks, track
 - Mode Selection: Choose between default and single task modes.
 - Statistics Visualization: View total activity and detailed activity charts for tasks.
 
-## Setup and Running Instructions:
+## Live Demo
+
+Click on the link below to open the application in your web browser:
+[React Task Management Application](https://task-manager-appl-5871d2ece47c.herokuapp.com/)
+
+## Setup and Running Instructions Locally:
 
 To run frontend part:
 
