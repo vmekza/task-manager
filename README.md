@@ -12,8 +12,7 @@ This project is a React-based web application designed for managing tasks, track
 
 ## Live Demo
 
-Click on the link below to open the application in your web browser:
-[React Task Management Application](https://task-manager-appl-5871d2ece47c.herokuapp.com/)
+Click [here](https://task-manager-appl-5871d2ece47c.herokuapp.com/) to open the application in your web browser:
 
 ## Setup and Running Instructions Locally:
 
