@@ -42,7 +42,7 @@ const Taskboard = ({ mode, setMode }) => {
     const tagExists = tags.some((tag) => tag.name === newTagName);
     if (tagExists) return;
 
-    fetch(`${URL}/tasks`, {
+    fetch(`${URL}/tags`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name: newTagName }),
